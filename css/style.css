@@ -10,3 +10,23 @@
 .navbar-steam .navbar-nav .nav-link:hover {
     color: #fff;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+.bg-Steam{
+    background-color: #1b2838;
+}
+
+.colBoton{
+    max-width: 200px;
+    min-width: 200px;
+}
