@@ -15,7 +15,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #1b2838;;
+    background-color: #1b2838;
 }
 main{
     flex-grow: 1;
@@ -25,10 +25,4 @@ main{
 footer{
     background-color: #23262E;
 }
-.carousel-item img {
-    height: 400px;
-    object-fit: cover;
-  }
-  .aside-content {
-    color: #fff;
-  }
+  
