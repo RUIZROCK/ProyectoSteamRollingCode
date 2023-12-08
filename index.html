@@ -21,7 +21,8 @@
       <div class="container ">
         <a class="navbar-brand mx-auto" href="./index.html">
           <img class="d-block mt-3"
-            src="https://trello.com/1/cards/65712adf08d41dcd0646a9ef/attachments/65712adf08d41dcd0646aaa9/download/Group_2-removebg-preview.png" height="100" alt="STEAM">
+            src="./img/Group_2-removebg-preview.png"
+            height="100" alt="STEAM">
         </a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,14 +48,84 @@
             <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
               Iniciar sesión
             </button>
+          </div>
         </div>
-      </div>
     </nav>
   </header>
-  <main>
+  <main id="principalSteam">
+    <section>
+      <div class="container-fluid p-0 my-5">
+        <div class="row">
+          <div class="col p-0">
+            <img class="img-fluid w-100" src="https://www.algoritmolegal.com/wp-content/uploads/2022/01/Guia-legal-de-los-videojuegos.jpg" style="object-fit: cover; margin-top: 30px; height: 100%; width: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <p class="text-light"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eius placeat fugit maiores suscipit itaque sint laudantium magni omnis, facere amet nam voluptates alias harum, reiciendis velit earum provident quibusdam vel ipsam. Fugiat tempora, architecto sequi quasi officia omnis aliquid veritatis nemo aut dicta fugit ducimus repellendus mollitia in aperiam, quisquam impedit earum sint odit natus quaerat magnam recusandae, laborum qui. Consequatur, magnam velit consectetur voluptatem sint odio optio veritatis dolor temporibus tempora. Laborum temporibus tempore ipsa sed nisi at praesentium. Ut tenetur voluptate ipsa ad ducimus facilis aperiam architecto similique repellendus? Voluptatem aspernatur voluptate nemo sequi cumque mollitia voluptates.</p>
   </main>
+   <div class="modal fade"id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-light" style="background-color:#1b2838;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+          <img class="d-block mt-3"
+            src="./img/Group_2-removebg-preview.png" alt="STEAM">
+        </div>
+        <div class="modal-body">
+          <!-- Aquí puedes agregar los campos de inicio de sesión (usuario, contraseña, etc.) -->
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Inicia sesión con el Nombre de la Cuenta o Correo Electronico:</label>
+              <input  style="background-color:#1b2838 ; color:aliceblue;" type="text" class="form-control"  id="username">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña:</label>
+              <input style="background-color:#1b2838 ; color:aliceblue;" type="password" class="form-control" id="password">
+            </div>
+            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+          </form>
+        <div class="forgot-password">
+          <a href="">¿Has olvidado la contraseña?</a>
+        </div>
+        <div class="account-options text-center">
+          <p>¿Ya tienes cuenta? <a href="#">Inicia Sesión</a></p>
+          <p>O</p>
+          <p>¿Quieres registrarte con?</p>
+          <div>
+            <a href="">Google</a>
+            <a href="">Facebook</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
+  <footer class=" text-center text-light py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-sm-2  align-items-start flex-column mb-3 " style="height: 100px;">
+          <a href="#principalSteam">
+            <img src="https://trello.com/1/cards/65712adf08d41dcd0646a9ef/attachments/65712adf08d41dcd0646aaa9/download/Group_2-removebg-preview.png"alt="STEAM"> </a>
+        </div>
+        <div class=" col-sm-4"> &copy;Derechos reservadors</div>
+        <div class=" col-sm-4"> localidad </div>
+        <div class=" col-sm-2"> contactos</div>
+        <hr>
+        <div class="row">
+          <div class="col-12 col-sm-12">
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+  </footer>
 
   <script src="./js/apps.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
