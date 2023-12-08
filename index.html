@@ -67,39 +67,40 @@
     
     <p class="text-light"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eius placeat fugit maiores suscipit itaque sint laudantium magni omnis, facere amet nam voluptates alias harum, reiciendis velit earum provident quibusdam vel ipsam. Fugiat tempora, architecto sequi quasi officia omnis aliquid veritatis nemo aut dicta fugit ducimus repellendus mollitia in aperiam, quisquam impedit earum sint odit natus quaerat magnam recusandae, laborum qui. Consequatur, magnam velit consectetur voluptatem sint odio optio veritatis dolor temporibus tempora. Laborum temporibus tempore ipsa sed nisi at praesentium. Ut tenetur voluptate ipsa ad ducimus facilis aperiam architecto similique repellendus? Voluptatem aspernatur voluptate nemo sequi cumque mollitia voluptates.</p>
   </main>
-   <div class="modal fade"id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content text-light" style="background-color:#1b2838;">
-        <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
-          <img class="d-block mt-3"
-            src="./img/Group_2-removebg-preview.png" alt="STEAM">
+        <div class="modal-header d-flex justify-content-center">
+          <img
+            src="./img/Group_2-removebg-preview.png"
+            height="100"  alt="STEAM" style="max-width: 100%; height: auto;">
         </div>
         <div class="modal-body">
-          <!-- Aquí puedes agregar los campos de inicio de sesión (usuario, contraseña, etc.) -->
           <form>
             <div class="mb-3">
-              <label for="username" class="form-label">Inicia sesión con el Nombre de la Cuenta o Correo Electronico:</label>
-              <input  style="background-color:#1b2838 ; color:aliceblue;" type="text" class="form-control"  id="username">
+              <label for="username" class="form-label">Inicia sesión con el Nombre de la Cuenta o Correo
+                Electronico:</label>
+              <input style="background-color:#1b2838; color:aliceblue;" type="text" class="form-control" id="username">
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label">Contraseña:</label>
-              <input style="background-color:#1b2838 ; color:aliceblue;" type="password" class="form-control" id="password">
+              <label for="password" class="form-label ">Contraseña:</label>
+              <input style="background-color:#1b2838; color:aliceblue;" type="password" class="form-control"
+                id="password">
             </div>
-            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-primary">Iniciar sesión</button>
+            </div>
           </form>
-        <div class="forgot-password">
-          <a href="">¿Has olvidado la contraseña?</a>
-        </div>
-        <div class="account-options text-center">
-          <p>¿Ya tienes cuenta? <a href="#">Inicia Sesión</a></p>
-          <p>O</p>
-          <p>¿Quieres registrarte con?</p>
-          <div>
-            <a href="">Google</a>
-            <a href="">Facebook</a>
+          <div class="text-center py-3">
+            <a href="">¿Has olvidado la contraseña?</a>
           </div>
-        </div>
+          <div class=" text-center py-4">
+            <p>¿Es Tu Primera Vez? <br> <a href="">Registrate</a> con Nosotros o Bien puedes iniciar con :</p>
+            <div>
+              <a href="">Google</a>
+              <a href="">Facebook</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
