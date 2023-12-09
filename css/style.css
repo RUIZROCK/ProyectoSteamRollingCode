@@ -21,3 +21,15 @@
   height: 400px;
   object-fit: cover;
 }
+
+
+.categoriasImg {
+    height: 191px;
+    object-fit:cover;
+  }
+  
+  .botonVerMasYCarrito {
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0);
+  }
