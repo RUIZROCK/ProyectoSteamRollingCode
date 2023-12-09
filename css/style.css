@@ -1,15 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.imagenHeroe{
-    height: 500px;
-    object-fit: cover;
+.imagenHeroe {
+  height: 500px;
+  object-fit: cover;
 }
-.carouselImagenes{
-    height: 400px;
-    object-fit: cover;
+.carouselImagenes {
+  height: 400px;
+  object-fit: cover;
 }
 
+.ajusteImagenpublicidadPequeña {
+  height: 80px;
+  object-fit: cover;
+}
 
+.ajusteImagenpublicidadGrande {
+  height: 400px;
+  object-fit: cover;
+}
