@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagenHeroe{
+    height: 500px;
+    object-fit: cover;
+}
+.carouselImagenes{
+    height: 400px;
+    object-fit: cover;
+}
+
+
