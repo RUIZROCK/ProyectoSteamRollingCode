@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +24,6 @@ body{
 }
 main{
   flex-grow: 1;
-
 }
 
 footer{
@@ -104,4 +102,3 @@ color: #00acee;
     .mediaQueries__lg {
       display: none;
     }
-  
