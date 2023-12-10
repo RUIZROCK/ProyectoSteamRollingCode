@@ -1,39 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-steam {
-    background-color: #1b2838;
+  background-color: #1b2838;
 }
 .navbar-steam {
-    color: #fff;
+  color: #fff;
 }
 .navbar-steam .navbar-nav .nav-link {
-    color: #c1c5c8;
+  color: #c1c5c8;
 }
 .navbar-steam .navbar-nav .nav-link:hover {
-    color: #fff;
+  color: #fff;
 }
 
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #1b2838;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b2838;
 }
 main{
-    flex-grow: 1;
-    
-
+  flex-grow: 1;
 }
 
 footer{
-    background-color: #23262E;
+  background-color: #23262E;
 }
 
 .bi-facebook{
-    font-size: 2rem;
-    color: beige;
+  font-size: 2rem;
+  color: beige;
 }
 .bi-google{
-    font-size: 2rem;
-    color: #4285f4;
+  font-size: 2rem;
+  color: #4285f4;
 }
 .bi-twitter{
 font-size: 2rem;
@@ -47,4 +50,59 @@ color: #00acee;
 }
 .bg-Steam{
     background-color: #1b2838;
+}
+
+.imagenHeroe {
+  height: 500px;
+  object-fit: cover;
+}
+.carouselImagenes {
+  height: 400px;
+  object-fit: cover;
+}
+
+.ajusteImagenpublicidadPequeña {
+  height: 80px;
+  object-fit: cover;
+}
+
+.ajusteImagenpublicidadGrande {
+  height: 400px;
+  object-fit: cover;
+}
+
+
+.categoriasImg {
+    height: 191px;
+    object-fit:cover;
+  }
+  
+  .botonVerMasYCarrito {
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0);
+  }
+
+  
+.ajusteUltimasImagenes {
+    height: 230px;
+    object-fit: cover;
+  }
+
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .mediaQueries__md {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .mediaQueries__sm {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .mediaQueries__lg {
+      display: none;
+    }
 }
