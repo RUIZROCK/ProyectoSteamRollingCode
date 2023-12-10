@@ -1,4 +1,4 @@
- .navbar-steam { 
+.navbar-steam {
     background-color: #1b2838;
 }
 .navbar-steam {
@@ -19,10 +19,29 @@ body{
 }
 main{
     flex-grow: 1;
+    
 
 }
 
 footer{
     background-color: #23262E;
 }
-  
+
+.bi-facebook{
+    font-size: 2rem;
+    color: beige;
+}
+.bi-google{
+    font-size: 2rem;
+    color: #4285f4;
+}
+.bi-twitter{
+font-size: 2rem;
+color: #00acee;
+}
+
+.bi-instagram{
+    font-size: 2rem;
+    color: #C13584;
+
+}
