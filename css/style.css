@@ -3,6 +3,54 @@
   padding: 0;
 }
 
+.navbar-steam {
+  background-color: #1b2838;
+}
+.navbar-steam {
+  color: #fff;
+}
+.navbar-steam .navbar-nav .nav-link {
+  color: #c1c5c8;
+}
+.navbar-steam .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b2838;
+}
+main{
+  flex-grow: 1;
+  
+
+}
+
+footer{
+  background-color: #23262E;
+}
+
+.bi-facebook{
+  font-size: 2rem;
+  color: beige;
+}
+.bi-google{
+  font-size: 2rem;
+  color: #4285f4;
+}
+.bi-twitter{
+font-size: 2rem;
+color: #00acee;
+}
+
+.bi-instagram{
+  font-size: 2rem;
+  color: #C13584;
+
+}
+
 .imagenHeroe {
   height: 500px;
   object-fit: cover;
