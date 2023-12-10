@@ -44,9 +44,12 @@ color: #00acee;
 }
 
 .bi-instagram{
-  font-size: 2rem;
-  color: #C13584;
+    font-size: 2rem;
+    color: #C13584;
 
+}
+.bg-Steam{
+    background-color: #1b2838;
 }
 
 .imagenHeroe {
@@ -102,3 +105,4 @@ color: #00acee;
     .mediaQueries__lg {
       display: none;
     }
+}
