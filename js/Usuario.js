@@ -1,4 +1,4 @@
-class Usuario{
+export default class Usuario{
     #nombre
     #apellido
     #tipo
@@ -6,7 +6,7 @@ class Usuario{
     #username
     #contrasenia
 
-    constructor(nombre,apellido,tipo,correo,username,contrasenia){
+    constructor(codigo= uuidv4(),nombre,apellido,tipo,correo,username,contrasenia){
         this.#nombre=nombre
         this.#apellido=apellido
         this.#tipo=tipo
