@@ -2,11 +2,11 @@ import Juego from "./Juego.js";
 import Usuario from "./Usuario.js";
 
 
-const sergio=new Usuario(undefined,"Sergio","Ruiz","ADMIN","sergioruizrock@gmail.com","sergioRuiz","sergioRuiz");
-const giselle=new Usuario(undefined,"Giselle","Ruiz","ADMIN","","giselleRuiz","giselleRuiz");
-const jennifer=new Usuario(undefined,"Jennifer","Valor","ADMIN","","jenniferValor","jenniferValor");
-const lucas=new Usuario(undefined,"Lucas","Jaime","ADMIN","","lucasJaime","lucasJaime");
-const maxi=new Usuario(undefined,"Maximiliano","Gomez","ADMIN","","MaximilianoGomez","MaximilianoGomez");
+const sergio=new Usuario(undefined,"Sergio","Ruiz","ADMIN","sergioruizrock@gmail.com","sergioRuiz","sergioRuiz","Ruiz, Sergio.jpg");
+const giselle=new Usuario(undefined,"Giselle","Ruiz","ADMIN","","giselleRuiz","giselleRuiz","Ruiz, Giselle.jpg");
+const jennifer=new Usuario(undefined,"Jennifer","Valor","ADMIN","","jenniferValor","jenniferValor", "Valor, jennifer.jpeg");
+const lucas=new Usuario(undefined,"Lucas","Jaime","ADMIN","","lucasJaime","lucasJaime","Jaime, Lucas.jpeg");
+const maxi=new Usuario(undefined,"Maximiliano","Gomez","ADMIN","","MaximilianoGomez","MaximilianoGomez","Gómez, Maximiliano.jpg");
 
 const ListaUsuarios=[];
 
