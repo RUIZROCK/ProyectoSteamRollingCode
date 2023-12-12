@@ -107,3 +107,8 @@ color: #00acee;
       display: none;
     }
 }
+
+.card-body-detalles{
+  background-color:#23262E ;
+  color: white;
+}
