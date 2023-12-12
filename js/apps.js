@@ -248,4 +248,4 @@ let mkx = new Juego(undefined,"Mortal Kombat X", "Batallas sangrientas, gráfico
   ListaJuegos.push(sfv);
   ListaJuegos.push(re2);
 
- 
+  
