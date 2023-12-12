@@ -1,4 +1,4 @@
-class Juego{
+export default class Juego{
     #codigo
     #nombre
     #detalles
@@ -9,8 +9,7 @@ class Juego{
     #requisitos
     #desarrollador
     #resenias
-
-    constructor(codigo,nombre,detalles,categoria,precio,img,descripcion,requisitos,desarrollador,resenias){
+    constructor(codigo = uuidv4(), nombre, descripcion, requisitos ,  desarrollador , categoria , precio , detalles, img, resenias){
         this.#codigo=codigo
         this.#nombre=nombre
         this.#detalles=detalles
