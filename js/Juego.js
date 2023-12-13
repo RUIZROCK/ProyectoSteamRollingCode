@@ -5,25 +5,19 @@ export default class Juego{
     #categoria
     #precio
     #img
-    #descripcion
     #requisitos
     #desarrollador
     #resenias
-    constructor(codigo = uuidv4(), nombre, descripcion, requisitos ,  desarrollador , categoria , precio , detalles, img, resenias){
+    constructor(codigo = uuidv4(), nombre, requisitos ,  desarrollador , categoria , precio , detalles, img, resenias){
         this.#codigo=codigo
         this.#nombre=nombre
         this.#detalles=detalles
         this.#categoria=categoria
         this.#precio=precio
         this.#img=img
-        this.#descripcion=descripcion
         this.#requisitos=requisitos
         this.#desarrollador=desarrollador
         this.#resenias=resenias
-    }
-
-    get descripcion(){
-        return this.#descripcion
     }
 
     get requisitos(){
@@ -60,11 +54,6 @@ export default class Juego{
 
     get img(){
         return this.#img
-    }
-
-    set descripcion(descripcion){
-        this.#descripcion=descripcion
-        
     }
 
     set requisitos(requisitos){
@@ -109,5 +98,18 @@ export default class Juego{
     set img(img){
         this.#img=img
         
+    }
+
+    toJSON(){
+        return {
+            codigo: this.codigo,
+            nombre: this.nombre,
+            detalles: this.detalles,
+            categoria: this.categoria,
+            precio: this.precio,
+            img: this.img,
+            requisitos: this.requisitos,
+            desarrollador: this.desarrollador,
+            resenias: this.resenias}
     }
 }

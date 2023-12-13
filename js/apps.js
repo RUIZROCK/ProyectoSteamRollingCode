@@ -182,45 +182,45 @@ const pes4Resenias = [
   ];
 
 
-let pes4 = new Juego("PES 4", "Precisión futbolística, gráficos para su tiempo, nostalgia del 2000.", "Sistema modesto, Windows XP, Pentium III, 256 MB RAM.", "Konami", "Deporte", "$15", "Sumérgete en el campo con PES 4, donde la precisión del fútbol y los gráficos de la época crean una experiencia auténtica.","pes4.jpg",pes4Resenias);
+let pes4 = new Juego(undefined,"PES 4","Sistema modesto, Windows XP, Pentium III, 256 MB RAM.", "Konami", "Deporte", "$15", "Sumérgete en el campo con PES 4, donde la precisión del fútbol y los gráficos de la época crean una experiencia auténtica.","pes4.jpg",pes4Resenias);
 
-let pes6 = new Juego(undefined,"PES 6", "Fútbol refinado, jugabilidad icónica, la era de los mediados de 2000.", "Requisitos ligeros, Windows 2000/XP, 800 MHz, 256 MB RAM.", "Konami", "Deporte", "$10", "Revive la época dorada del fútbol con PES 6, destacando por su refinada jugabilidad y la icónica era de mediados de 2000.","pes6.jpeg",pes6Resenias);
+let pes6 = new Juego(undefined,"PES 6", "Requisitos ligeros, Windows 2000/XP, 800 MHz, 256 MB RAM.", "Konami", "Deporte", "$10", "Revive la época dorada del fútbol con PES 6, destacando por su refinada jugabilidad y la icónica era de mediados de 2000.","pes6.jpeg",pes6Resenias);
 
-let pes13 = new Juego(undefined,"PES 13", "Evolución futbolística, movimientos suaves, experiencia moderna inolvidable.", "Configuración media, Windows XP/Vista/7, Core 2 Duo, 2 GB RAM.", "Konami", "Deporte", "$20", "Experimenta la evolución del fútbol en PES 13, con movimientos suaves y una experiencia moderna inolvidable para los fanáticos.","pes13.jpeg",pes13Resenias);
+let pes13 = new Juego(undefined,"PES 13", "Configuración media, Windows XP/Vista/7, Core 2 Duo, 2 GB RAM.", "Konami", "Deporte", "$20", "Experimenta la evolución del fútbol en PES 13, con movimientos suaves y una experiencia moderna inolvidable para los fanáticos.","pes13.jpeg",pes13Resenias);
 
-let madagascar = new Juego(undefined,"Madagascar", "Aventuras animadas, humor único, diversión para todas las edades.", "PC básica, Windows 98/ME/2000/XP, Pentium III, 256 MB RAM.", "Toys for Bob", "Aventura", "$5", "Embárcate en una aventura animada con Madagascar, donde la diversión y el humor único son garantía para jugadores de todas las edades.","madagascar.jpeg",madagascarResenias);
+let madagascar = new Juego(undefined,"Madagascar", "PC básica, Windows 98/ME/2000/XP, Pentium III, 256 MB RAM.", "Toys for Bob", "Aventura", "$5", "Embárcate en una aventura animada con Madagascar, donde la diversión y el humor único son garantía para jugadores de todas las edades.","madagascar.jpeg",madagascarResenias);
 
-let lol = new Juego(undefined,"League of Legends", "Batallas estratégicas, comunidad global, emoción competitiva sin fin.", "Bajo requerimiento, Windows 7/8/10, 3 GHz, 2 GB RAM.", "Riot Games", "MOBA", "Gratis (juego en línea)", "Adéntrate en la estrategia y la emoción competitiva con League of Legends, un MOBA que ha definido el género y la competición global.","leageOfLegends.png",lolResenias);
+let lol = new Juego(undefined,"League of Legends", "Bajo requerimiento, Windows 7/8/10, 3 GHz, 2 GB RAM.", "Riot Games", "MOBA", "Gratis (juego en línea)", "Adéntrate en la estrategia y la emoción competitiva con League of Legends, un MOBA que ha definido el género y la competición global.","leageOfLegends.png",lolResenias);
 
-let gtav = new Juego(undefined,"GTA V", "Épica criminal, mundo abierto impresionante, historias entrelazadas.", "Alto rendimiento, Windows 7/8/10, Core i5, 8 GB RAM, 65 GB HDD.", "Rockstar North", "Aventura", "$30", "Vive la épica criminal en GTA V, con un mundo abierto impresionante y tramas entrelazadas que te sumergirán en Los Santos.","gta-5.jpg",gtaVResenias);
+let gtav = new Juego(undefined,"GTA V", "Alto rendimiento, Windows 7/8/10, Core i5, 8 GB RAM, 65 GB HDD.", "Rockstar North", "Aventura", "$30", "Vive la épica criminal en GTA V, con un mundo abierto impresionante y tramas entrelazadas que te sumergirán en Los Santos.","gta-5.jpg",gtaVResenias);
 
-let fifa16 = new Juego(undefined,"FIFA 16", "Emoción futbolística, precisión táctica, destacando estrellas.", "Estándar, Windows 7/8/8.1/10, Core i3, 4 GB RAM, 15 GB HDD.", "EA Vancouver", "Deporte", "$15", "Siente la emoción del fútbol en FIFA 16, con precisión táctica y estrellas destacadas que llevan la experiencia a otro nivel.","fifa16.jpeg",fifa16Resenias);
+let fifa16 = new Juego(undefined,"FIFA 16", "Estándar, Windows 7/8/8.1/10, Core i3, 4 GB RAM, 15 GB HDD.", "EA Vancouver", "Deporte", "$15", "Siente la emoción del fútbol en FIFA 16, con precisión táctica y estrellas destacadas que llevan la experiencia a otro nivel.","fifa16.jpeg",fifa16Resenias);
 
-let fifa19 = new Juego(undefined,"FIFA 19", "Espectáculo futbolístico, realismo asombroso, jugabilidad refinada.", "Moderado, Windows 7/8.1/10, Core i3-2100, 8 GB RAM, 50 GB HDD.", "EA Vancouver", "Deporte", "$25", "Disfruta del espectáculo futbolístico en FIFA 19, con realismo asombroso y jugabilidad refinada que captura la esencia del deporte.","fifa19.jpeg",fifa19Resenias);
+let fifa19 = new Juego(undefined,"FIFA 19", "Moderado, Windows 7/8.1/10, Core i3-2100, 8 GB RAM, 50 GB HDD.", "EA Vancouver", "Deporte", "$25", "Disfruta del espectáculo futbolístico en FIFA 19, con realismo asombroso y jugabilidad refinada que captura la esencia del deporte.","fifa19.jpeg",fifa19Resenias);
 
-let doom = new Juego(undefined,"Doom", "Caos infernal, acción vertiginosa, el renacer de un clásico.", "Potente, Windows 7/8.1/10 (64-bit), Intel Core i5, 8 GB RAM, 55 GB HDD.", "id Software", "Acción", "$25", "Sumérgete en el caos infernal de Doom, un FPS implacable que redefine la acción en primera persona con intensidad y brutalidad.","Doom.webp",doomResenias);
+let doom = new Juego(undefined,"Doom", "Potente, Windows 7/8.1/10 (64-bit), Intel Core i5, 8 GB RAM, 55 GB HDD.", "id Software", "Acción", "$25", "Sumérgete en el caos infernal de Doom, un FPS implacable que redefine la acción en primera persona con intensidad y brutalidad.","Doom.webp",doomResenias);
 
-let cs = new Juego(undefined,"Counter-Strike", "Tácticas letales, multijugador intenso, clásico atemporal.", "Ligero, Windows 7/8/10, procesador 1.6 GHz, 512 MB RAM.", "Valve", "Disparos", "$10", "Enfréntate a tácticas letales en Counter-Strike, un clásico atemporal de disparos multijugador que ha marcado a generaciones de jugadores.","counterStrike2.jpg",csResenias);
+let cs = new Juego(undefined,"Counter-Strike", "Ligero, Windows 7/8/10, procesador 1.6 GHz, 512 MB RAM.", "Valve", "Disparos", "$10", "Enfréntate a tácticas letales en Counter-Strike, un clásico atemporal de disparos multijugador que ha marcado a generaciones de jugadores.","counterStrike2.jpg",csResenias);
 
-let css = new Juego(undefined,"Counter-Strike Source", "Gráficos mejorados, batallas tácticas, jugabilidad emocionante.", "Estándar, Windows 7, procesador 2.4 GHz, 1 GB RAM.", "Valve", "Disparos", "$15", "Revive la emoción táctica en Counter-Strike Source, con gráficos mejorados y la misma intensidad en sus batallas multijugador.","counterStrikeSource.jpg",csSourceResenias);
+let css = new Juego(undefined,"Counter-Strike Source", "Estándar, Windows 7, procesador 2.4 GHz, 1 GB RAM.", "Valve", "Disparos", "$15", "Revive la emoción táctica en Counter-Strike Source, con gráficos mejorados y la misma intensidad en sus batallas multijugador.","counterStrikeSource.jpg",csSourceResenias);
 
-let cod2 = new Juego(undefined,"Call of Duty 2", "WWII intenso, batallas históricas, inmersión en la guerra.", "Moderado, Windows 2000/XP, Pentium IV, 512 MB RAM.", "Infinity Ward", "Acción", "$10", "Sumérgete en la intensidad de la Segunda Guerra Mundial con Call of Duty 2, experimentando batallas históricas con realismo impresionante.","callOfDuty2.jpg",cod2Resenias);
+let cod2 = new Juego(undefined,"Call of Duty 2", "Moderado, Windows 2000/XP, Pentium IV, 512 MB RAM.", "Infinity Ward", "Acción", "$10", "Sumérgete en la intensidad de la Segunda Guerra Mundial con Call of Duty 2, experimentando batallas históricas con realismo impresionante.","callOfDuty2.jpg",cod2Resenias);
 
-let codbo = new Juego(undefined,"Call of Duty Black Ops", "Intriga de la Guerra Fría, misiones emocionantes, acción explosiva.", "Alto rendimiento, Windows 7/Vista/XP, Core 2 Duo, 2 GB RAM.", "Treyarch", "Acción", "$20", "Explora la intriga de la Guerra Fría en Call of Duty Black Ops, con misiones emocionantes y acción explosiva que te mantendrán al borde del asiento.","callOfDutyBlackOps.jpg",codBlackOpsResenias);
+let codbo = new Juego(undefined,"Call of Duty Black Ops", "Alto rendimiento, Windows 7/Vista/XP, Core 2 Duo, 2 GB RAM.", "Treyarch", "Acción", "$20", "Explora la intriga de la Guerra Fría en Call of Duty Black Ops, con misiones emocionantes y acción explosiva que te mantendrán al borde del asiento.","callOfDutyBlackOps.jpg",codBlackOpsResenias);
 
-let codmw3 = new Juego(undefined,"Call of Duty Modern Warfare 3", "Guerra global, campaña intensa, multijugador adictivo.", "Requisitos medios, Windows XP/Vista/7, Core 2 Duo, 2 GB RAM.", "Infinity Ward", "Acción", "$15", "Únete a la guerra global en Call of Duty Modern Warfare 3, con una campaña intensa y un multijugador adictivo que desafía tus habilidades.","callOfDutyMW3.jpg",codMw3Resenias);
+let codmw3 = new Juego(undefined,"Call of Duty Modern Warfare 3", "Requisitos medios, Windows XP/Vista/7, Core 2 Duo, 2 GB RAM.", "Infinity Ward", "Acción", "$15", "Únete a la guerra global en Call of Duty Modern Warfare 3, con una campaña intensa y un multijugador adictivo que desafía tus habilidades.","callOfDutyMW3.jpg",codMw3Resenias);
 
-let ac3 = new Juego(undefined,"Assassin's Creed III", "Aventura revolucionaria, mundo abierto impresionante, acción cautivadora.", "Configuración media, Windows 7, Core 2 Duo, 2 GB RAM, 17 GB HDD.", "Ubisoft Montreal", "Aventura", "$20", "Embárcate en una aventura revolucionaria con Assassin's Creed III, explorando un mundo abierto impresionante y participando en acción cautivadora.","AssasinsCreedIII.jpeg",ac3Resenias);
+let ac3 = new Juego(undefined,"Assassin's Creed III", "Configuración media, Windows 7, Core 2 Duo, 2 GB RAM, 17 GB HDD.", "Ubisoft Montreal", "Aventura", "$20", "Embárcate en una aventura revolucionaria con Assassin's Creed III, explorando un mundo abierto impresionante y participando en acción cautivadora.","AssasinsCreedIII.jpeg",ac3Resenias);
 
-let gtavc = new Juego(undefined,"GTA Vice City", "Nostalgia de los 80, crimen en el paraíso, banda sonora inolvidable.", "Básico, Windows 98/ME/2000/XP, Pentium III, 128 MB RAM.", "Rockstar North", "Aventura", "$10", "Regresa a los vibrantes años 80 con GTA Vice City, un juego de aventura en mundo abierto lleno de crimen, nostalgia y una banda sonora inolvidable.","gta-vc.jpg",gtaViceCityResenias);
+let gtavc = new Juego(undefined,"GTA Vice City", "Básico, Windows 98/ME/2000/XP, Pentium III, 128 MB RAM.", "Rockstar North", "Aventura", "$10", "Regresa a los vibrantes años 80 con GTA Vice City, un juego de aventura en mundo abierto lleno de crimen, nostalgia y una banda sonora inolvidable.","gta-vc.jpg",gtaViceCityResenias);
 
-let sfv = new Juego(undefined,"Street Fighter V", "Combates legendarios, variedad de personajes, competición feroz.", "Requisitos moderados, Windows 7/8/10, Core i3, 6 GB RAM.", "Capcom", "Lucha", "$30", "Enfréntate a combates legendarios en Street Fighter V, con una feroz selección de luchadores y una competición intensa que desafía tus habilidades.","streetFighterV.webp",streetFighterVResenias);
+let sfv = new Juego(undefined,"Street Fighter V", "Requisitos moderados, Windows 7/8/10, Core i3, 6 GB RAM.", "Capcom", "Lucha", "$30", "Enfréntate a combates legendarios en Street Fighter V, con una feroz selección de luchadores y una competición intensa que desafía tus habilidades.","streetFighterV.webp",streetFighterVResenias);
 
-let re2 = new Juego(undefined,"Resident Evil 2", "Horror de supervivencia, Raccoon City renovado, tensión constante.", "Configuración media, Windows 7/8.1/10, Core i5, 8 GB RAM, 26 GB HDD.", "Capcom", "Horror", "$25", "Vive el horror de supervivencia en Resident Evil 2, con Raccoon City renovado y una tensión constante en este remake impresionante.","residentEvil2.jpg",residentEvil2Resenias);
+let re2 = new Juego(undefined,"Resident Evil 2", "Configuración media, Windows 7/8.1/10, Core i5, 8 GB RAM, 26 GB HDD.", "Capcom", "Horror", "$25", "Vive el horror de supervivencia en Resident Evil 2, con Raccoon City renovado y una tensión constante en este remake impresionante.","residentEvil2.jpg",residentEvil2Resenias);
 
-let mkult = new Juego(undefined,"Mortal Kombat Ultimate", "Fatalities épicas, luchadores icónicos, brutalidad inigualable.", "Moderado, Windows 7/8/10, Core i5, 8 GB RAM.", "NetherRealm Studios", "Lucha", "$30", "Disfruta de fatalities épicos y brutalidad inigualable en Mortal Kombat Ultimate, donde los luchadores icónicos se enfrentan en combates sangrientos.","mortalKombatUltimate.avif",mortalKombatUltimateResenias);
+let mkult = new Juego(undefined,"Mortal Kombat Ultimate", "Moderado, Windows 7/8/10, Core i5, 8 GB RAM.", "NetherRealm Studios", "Lucha", "$30", "Disfruta de fatalities épicos y brutalidad inigualable en Mortal Kombat Ultimate, donde los luchadores icónicos se enfrentan en combates sangrientos.","mortalKombatUltimate.avif",mortalKombatUltimateResenias);
 
-let mkx = new Juego(undefined,"Mortal Kombat X", "Batallas sangrientas, gráficos sorprendentes, la evolución de la brutalidad.", "Alto rendimiento, Windows 7/8/10, Core i5, 8 GB RAM, 40 GB HDD.", "NetherRealm Studios", "Lucha", "$25", "Explora batallas sangrientas y gráficos sorprendentes en Mortal Kombat X, la evolución de la brutalidad en un juego de lucha inmersivo.","mortalKombatX.jpeg",mortalKombatXResenias);
+let mkx = new Juego(undefined,"Mortal Kombat X", "Alto rendimiento, Windows 7/8/10, Core i5, 8 GB RAM, 40 GB HDD.", "NetherRealm Studios", "Lucha", "$25", "Explora batallas sangrientas y gráficos sorprendentes en Mortal Kombat X, la evolución de la brutalidad en un juego de lucha inmersivo.","mortalKombatX.jpeg",mortalKombatXResenias);
 
 
           
@@ -228,24 +228,103 @@ let mkx = new Juego(undefined,"Mortal Kombat X", "Batallas sangrientas, gráfico
   const ListaJuegos=[];
 
   ListaJuegos.push(pes4);
-  ListaJuegos.push(pes6);
-  ListaJuegos.push(pes13);
-  ListaJuegos.push(madagascar);
-  ListaJuegos.push(lol);
-  ListaJuegos.push(gtavc);
-  ListaJuegos.push(gtav);
-  ListaJuegos.push(fifa16);
-  ListaJuegos.push(fifa19);
-  ListaJuegos.push(cod2);
-  ListaJuegos.push(codmw3);
-  ListaJuegos.push(codbo);
-  ListaJuegos.push(cs);
-  ListaJuegos.push(css);
   ListaJuegos.push(doom);
-  ListaJuegos.push(ac3);
-  ListaJuegos.push(mkult);
-  ListaJuegos.push(mkx);
-  ListaJuegos.push(sfv);
+  ListaJuegos.push(gtavc);
   ListaJuegos.push(re2);
+  ListaJuegos.push(mkx);
+  ListaJuegos.push(ac3);
+  ListaJuegos.push(cod2);
+  ListaJuegos.push(css);
+  ListaJuegos.push(madagascar);
+  ListaJuegos.push(fifa19);
+  ListaJuegos.push(sfv);
 
+  const formularioAdministrarJuego = document.querySelector("#formularioAdministrarJuego");
+
+  const nombre = document.getElementById("nombre"),
+        requisitos = document.getElementById("requisitos"),
+        desarrollador = document.getElementById("desarrollador"),
+        categoria = document.getElementById("categoria"),
+        precio = document.getElementById("precio"),
+        detalles = document.getElementById("detalles"),
+        img = document.getElementById("img")
+  const 
+  modalJuego = new bootstrap.Modal (document.getElementById("modalJuego")),
+  btnCargar=document.getElementById("btnCargar"),
+  btnEditar=document.getElementById("btnEditar"),
+  btnVerMas=document.getElementById("btnVerMas"),
+  btnBorrar=document.getElementById("btnBorrar")
+
+
+const crearJuego = (e) => {
+  e.preventDefault();
+  const juegoNuevo = new Juego(
+    undefined,
+    nombre.value,
+    requisitos.value,
+    desarrollador.value,
+    categoria.value,
+    precio.value,
+    detalles.value,
+    img.value,
+    []
+  );
+
+  ListaJuegos.push(juegoNuevo);
+  guardarEnLocalStorage();
+  crearFila(juegoNuevo, ListaJuegos.length);
+};
+
+
+const MostrarModalJuegoAdministracion=()=>{
+    modalJuego.show();
+}
+
+  const guardarEnLocalStorage = () => {
+    localStorage.setItem("lista", JSON.stringify(ListaJuegos));
+  };
+
+  guardarEnLocalStorage();
+
+
+  const cargaInicial = () => {
+    if (ListaJuegos.length > 0) {
+      //dibujar las filas
+      ListaJuegos.map((juego, posicion) =>
+        crearFila(juego, posicion + 1)
+      );
+    } else {
+      console.log("No hay Juegos");
+    }
+  };
   
+  const crearFila = (juego, fila) => {
+    const tablaJuego = document.querySelector("tbody");
+    tablaJuego.innerHTML += `
+    <tr>
+      <th class="align-middle text-center" scope="row">${juego.codigo}</th>
+      <td class="align-middle">
+          <div class="d-flex flex-row justify-content-between w-100">
+              <div class="col-2">
+                  <img src="../img/${juego.img}" class="w-50 img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-10 ">
+                    <h5 class="align">${juego.nombre}</h5>
+                    <p class="text-truncate" style="max-width: 350px;">${juego.detalles}</p>
+                </div>
+          </div>
+      </td>
+      <td class="align-middle text-center">${juego.categoria}</td>
+      <td class="align-middle text-center">
+          <div class="">
+              <button class="mx-1 my-1 btn btn-secondary" id="btnVerMas">Ver mas</button><button class="btn btn-primary my-1 mx-1" id="btnEditar">Editar</button><button class="btn btn-danger my-1 mx-1" id="btnBorrar">Borrar</button>
+          </div>
+      </td>
+    </tr>
+    `;
+  };
+
+formularioAdministrarJuego.addEventListener("submit",crearJuego);
+btnCargar.addEventListener("click",MostrarModalJuegoAdministracion)
+
+  cargaInicial();
