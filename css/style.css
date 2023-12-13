@@ -108,7 +108,7 @@ color: #00acee;
     }
 }
 
-.carouselImagenes {
-  max-width:100%;
-  height: auto;
+.card-body-detalles{
+  background-color:#23262E ;
+  color: white;
 }
