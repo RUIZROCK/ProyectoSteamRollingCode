@@ -60,26 +60,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                        <th class="align-middle text-center" scope="row">3</th>
-                        <td class="align-middle">
-                            <div class="d-flex flex-row justify-content-between w-100">
-                                <div class="col-2">
-                                    <img src="../img/callOfDuty2.jpg" class="w-50 img-fluid rounded-start" alt="...">
-                                  </div>
-                                  <div class="col-10 ">
-                                      <h5 class="align">Call Of Duty 2</h5>
-                                      <p class="text-truncate" style="max-width: 350px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil sequi consequatur nostrum assumenda doloremque sed ut blanditiis dolore. Culpa rerum repudiandae dolore velit consectetur, quos cumque laudantium architorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil sequi consequatur nostrum assumenda doloremque sed ut blanditiis dolore. Culpa rerum repudiandae dolore velit consectetur, quos cumque laudantium architecto quidem miecto quidem minus.</p>
-                                  </div>
-                            </div>
-                        </td>
-                        <td class="align-middle text-center">Larry  Bird</td>
-                        <td class="align-middle text-center">
-                            <div class="">
-                                <button class="mx-1 my-1 btn btn-secondary" id="btnVerMas">Ver mas</button><button class="btn btn-primary my-1 mx-1" id="btnEditar">Editar</button><button class="btn btn-danger my-1 mx-1" id="btnBorrar">Borrar</button>
-                            </div>
-                        </td>
-                        </tr>
                     </tbody>
                     </table>
             </div>
@@ -88,21 +68,62 @@
     </main>
     <div class="modal fade" id="modalJuego" tabindex="-1" aria-labelledby="modalJuegoLabel" aria-hidden="true">
         <div class="modal-dialog bg-Steam text-light">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="modalJuegoLabel">Modal title</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+          <div class="modal-content ">
+            <div class="bg-Steam">
+                <div class="modal-header ">
+                  <h1 class="modal-title fs-5" id="modalJuegoLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <form id="formularioAdministrarJuego" class="">
+                    <div class="mb-3">
+                      <label for="nombre" class="form-label">nombre</label>
+                      <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                    </div>
+                    <div class="mb-3">
+                      <label for="precio" class="form-label">precio</label>
+                      <input type="text" class="form-control" id="precio" aria-describedby="precio">
+                    </div>
+                    <div class="mb-3">
+                      <label for="detalles" class="form-label">detalles</label>
+                      <textarea id="detalles" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <label for="requisitos" class="form-label">requisitos</label>
+                      <textarea id="requisitos" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <label for="img" class="form-label">imagen</label>
+                      <input type="text" class="form-control" id="img" aria-describedby="img">
+                    </div>
+                    <div class="mb-3">
+                      <label for="desarrollador" class="form-label">desarrollador</label>
+                      <input type="text" class="form-control" id="desarrollador" aria-describedby="desarrollador">
+                    </div>
+                    <div class="mb-3">
+                      <label for="categoria" class="form-label">Categoria</label>
+                      <select id="categoria" class="form-control">
+                        <option value="">Seleccione una opcion</option>
+                        <option value="Accion">Accion</option>
+                        <option value="Fantasia">Fantasia</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Comedia">Comedia</option>
+                        <option value="Terror">Terror</option>
+                      </select>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <button type="submit" class="mx-4 btn btn-primary">Enviar</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
           </div>
         </div>
       </div>
+
+
       <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content text-light" style="background-color:#1b2838;">
@@ -191,8 +212,8 @@
         </div>
       </footer>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/apps.js"></script>
-    <script src="../js/paginaAdministracion.js"></script>
+    <script type="module" src="../js/apps.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
 </body>
 </html>
