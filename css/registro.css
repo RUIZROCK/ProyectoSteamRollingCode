@@ -4,9 +4,9 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	background: rgb(2, 0, 36);
-	background: radial-gradient(circle, rgba(2, 0, 36, 1) 55%, rgba(9, 9, 78, 1) 83%, rgba(32, 46, 156, 1) 100%);
+	
+	background: rgb(5, 3, 37);
+	background: radial-gradient(circle, rgba(2, 0, 36, 1) 55%, rgb(7, 7, 54) 83%, rgb(9, 13, 49) 100%);
 }
 
 main {
