@@ -15,10 +15,10 @@ const buscadorJuegosNavbar = () => {
 
 
   const mostrarResultados = (juego) => {
-    const main = document.querySelector('divResultados');
+    const main = document.querySelector('main');
     console.log(juego.nombre)
     main.innerHTML+=`
-      <h3 class="text-light">${juego.nombre}</h3>
+      <h3 class="mt-5 text-light">${juego.nombre}</h3>
     `
   };
 

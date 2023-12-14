@@ -2,13 +2,13 @@ import Juego from "./Juego.js";
 import Usuario from "./Usuario.js";
 
 
-const sergio=new Usuario(undefined,"Sergio","Ruiz","ADMIN","sergioruizrock@gmail.com","sergioRuiz","sergioRuiz","Ruiz, Sergio.jpg");
-const giselle=new Usuario(undefined,"Giselle","Ruiz","ADMIN","","giselleRuiz","giselleRuiz","Ruiz, Giselle.jpg");
-const jennifer=new Usuario(undefined,"Jennifer","Valor","ADMIN","","jenniferValor","jenniferValor", "Valor, jennifer.jpeg");
-const lucas=new Usuario(undefined,"Lucas","Jaime","ADMIN","","lucasJaime","lucasJaime","Jaime, Lucas.jpeg");
-const maxi=new Usuario(undefined,"Maximiliano","Gomez","ADMIN","","MaximilianoGomez","MaximilianoGomez","Gómez, Maximiliano.jpg");
+const sergio=new Usuario(undefined,"Sergio","Ruiz","ADMIN","sergioruizrock@gmail.com","sergioRuiz","sergioRuiz","Ruiz, Sergio1.jpg");
+const giselle=new Usuario(undefined,"Giselle","Ruiz","ADMIN","","giselleRuiz","giselleRuiz","Ruiz, Giselle1.jpg");
+const jennifer=new Usuario(undefined,"Jennifer","Valor","ADMIN","","jenniferValor","jenniferValor", "Valor, jennifer3.jpeg");
+const lucas=new Usuario(undefined,"Lucas","Jaime","ADMIN","","lucasJaime","lucasJaime","Jaime, Lucas3.jpeg");
+const maxi=new Usuario(undefined,"Maximiliano","Gomez","ADMIN","","MaximilianoGomez","MaximilianoGomez","Gómez, Maximiliano1.jpg");
 
-const ListaUsuarios=[];
+export const ListaUsuarios=[];
 
 ListaUsuarios.push(giselle);
 ListaUsuarios.push(jennifer);
@@ -148,7 +148,11 @@ let mkx = new Juego(undefined,"Mortal Kombat X", "Alto rendimiento, Windows 7/8/
 
 
 
+  const guardarEnLocalStorage = () => {
+    localStorage.setItem("lista", JSON.stringify(ListaJuegos));
+    localStorage.setItem("usuarios", JSON.stringify(ListaUsuarios));
+  };
 
-
+  guardarEnLocalStorage();
 
 

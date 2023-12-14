@@ -36,7 +36,7 @@ div.innerHTML= `
   </div>
 
   <div class="col-6 col-lg-5">
-    <img class="img-fluid w-75 mb-3" src="../img/${juego.img}" alt="mortalkombat">
+    <img class="img-fluid w-100 mb-3" src="../img/${juego.img}" alt="mortalkombat">
   </div>
 </div>
     
@@ -58,7 +58,7 @@ const div2 = document.getElementById ("tbodyDetalles")
 let array = juego.resenias
 let fila = ""
 for(let i=0; i<array.length; i++){
-  fila +="<tr><td>"+array[i]+"</td></tr>"
+  fila +="<tr class='py-8'><td>'"+array[i]+"'</td></tr>"
   }
   fila += "</tbody></table>"
   div2.innerHTML=fila
