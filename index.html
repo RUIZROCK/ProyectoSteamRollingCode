@@ -34,8 +34,8 @@
                 <a class="nav-link" href="#">Comunidad</a>
               </li>
             </ul>
-            <form class="d-flex ms-auto">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <form class="d-flex ms-auto" id="BuscarJuegos">
+              <input id="cadenaTexto" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-outline-primary " type="submit">Buscar</button>
             </form>
             <div class="ms-auto mt- mt-lg-0">
@@ -58,6 +58,7 @@
       </nav>
     </header>
     <main class="container">
+      <div id="divResultados"></div>
       <div class="d-none d-md-block ">
         <img src="https://esports.as.com/2021/07/05/pro-evolution-soccer/eFootball-PES-juego-gratuito_1480062005_711010_1440x600.jpg" alt="" class="w-100 img-fluid py-3 imagenHeroe" />
       </div>
@@ -142,247 +143,16 @@
 
       <div class=" py-4" >
         <h4>Lorem ipsum dolor sit amet.</h4>
-        <article
+        <article id="articulDeCard"
           class="row justify-content-center img-fluid object-fit-cover"
         >
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/callOfDutyBlackOps.jpg"
-                class="card-img-top categoriasImg"
-                alt="#" 
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/fifa19.jpeg"
-                class="card-img-top categoriasImg"
-                alt="#"
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>                  </h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/fifa16.jpeg"
-                class="card-img-top categoriasImg"
-                alt="#"
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/gta-5.jpg"
-                class="card-img-top categoriasImg"
-                alt="#"
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/callOfDutyBlackOps.jpg"
-                class="card-img-top categoriasImg"
-                alt="#" 
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/fifa19.jpeg"
-                class="card-img-top categoriasImg"
-                alt="#"
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>                  </h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/fifa16.jpeg"
-                class="card-img-top categoriasImg"
-                alt="#"
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-3">
-            <div class="card h-100">
-              <img
-                src="./img/gta-5.jpg"
-                class="card-img-top categoriasImg"
-                alt="#"
-              />
-              <div class="card-body text-dark d-flex flex-column">
-                <h5 class="card-title text-center">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                  </ul>
-                </p>
-                <div class="mt-auto">
-                  <div>
-                    <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Ver más</a>
-                </div>
-                <div>
-                  <a href="#" class="btn w-100 botonVerMasYCarrito mb-1"
-                    >Añadir al carrito</a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        
         </article>
         
       </div>
 
       <section class="container my-4">
-        <article class="row ">
+        <article class="row container">
           <div class="col-md-6 mediaQueries__md mediaQueries__lg">
             <img
               src="./img/callOfDutyMW3.jpg"
@@ -428,34 +198,27 @@
     <footer class="text-center text-light py-3  ">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-4 mx-auto  ">
+          <div class="col-md-4 col-lg-4 mx-auto  ">
             <a href="#principalSteam">
-              <img src="https://trello.com/1/cards/65712adf08d41dcd0646a9ef/attachments/65712adf08d41dcd0646aaa9/download/Group_2-removebg-preview.png" alt="STEAM" class="img-fluid">
-            </a>
-            <div class="text-center mx-auto">
-              <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
-            </div>
-            
+              <img src="./img/Group_2-removebg-preview.png" alt="STEAM" class="img-fluid">
+          
           </div>
-          <div class="col-12 col-md-4 mx-auto mt-3">
-            <h4>Quienes Somos!</h4>
+          <div class="col-md-4 col-lg-4 mx-auto mt-3">
+            <h4>Sucursal</h4>
             <ul class="text-light list-unstyled">
-              <li>Sergio Ruiz</li>
-              <li>Maximiliano Ariel Gomez</li>
-              <li>Gisel ruiz</li>
-              <li>jenifer</li>
-              <li>lucas jaime</li>
+              <li>Av. General Paz 576</li>
+              <li>Piso 9-oficina 2</li>
+              <li>San Miguel de Tucumán, Argentina</li>
             </ul>
           </div>    
-          <div class="col-12 col-md-4 mx-auto mt-3">
-            <h4>Soporte Y Contacto</h4>
+          <div class="col-md-4 col-lg-4 mx-auto mt-3">
+            <h4>Redes Sociales</h4>
             <ul class="text-light list-unstyled">
-              <li>Email:</li>
-              <li>Telefono</li>
-              <li>Direccion:</li>
-              <li>Codigo Postal:</li>
+              <div class="text-center mx-auto">
+                <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+              </div>
               <li>&copy; Derechos Reservados RC-Steam</li>
             </ul>
           </div>
@@ -464,6 +227,10 @@
       </div>
     </footer>
   </body>
-  <script src="./js/apps.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script type="module" src="./js/paginaPrincipal.js"></script>
+  
+  <script type="module" src="./js/buscador.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
 </html>
