@@ -20,6 +20,7 @@ El proyecto fue desarrollado utilizando las siguientes tecnologías:
 - CSS
 - Bootstrap
 - JavaScript
+- Git/Github
 
 ## Funcionalidades Destacadas
 
