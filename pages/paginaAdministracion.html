@@ -3,45 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RC Steam - Tu tienda online de juegos Steam. Descubre una amplia selección de juegos y ofertas irresistibles. Compra y disfruta de la experiencia gaming.">
+    <meta name="keywords" content="RC Steam, juegos Steam, venta de juegos, tienda online, ofertas de juegos, gaming, plataforma Steam">
+    <meta name="author" content="Giselle Ruiz, Jennifer Valor, Lucas Jaime, Maximiliano Gomez, Sergio Ruiz">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Administracion</title>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-steam fixed-top ">
-        <div class="container ">
-          <a class="navbar-brand mx-auto" href="./index.html">
-            <img class="d-block mt-3" src="../img/Group_2-removebg-preview.png" height="100" alt="STEAM">
-          </a>
-          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-xl-flex justify-content-xl-start" id="navbarNav">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-steam fixed-top py-0 ">
+      <div class="container-fluid " >
+        <a class="navbar-brand mx-auto" href="../index.html">
+          <img class="d-block mt-3" src="../img/Group_2-removebg-preview.png" height="100" alt="STEAM">
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-4">
+              <a class="nav-link " href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="./error404.html">Comunidad</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto" id="BuscarJuegos">
+            <input id="cadenaTexto" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-primary " type="submit">Buscar</button>
+          </form>
+          <div class="ms-auto mt- mt-lg-0">
             <ul class="navbar-nav">
-              <li class="nav-item me-4">
-                <a class="nav-link " href="../index.html">Inicio</a>
+              <li class="nav-item mx-3 my-3 d-none" id="btnAdmin">
+                  <a href="#" class="btn btn-outline-light ">Panel admin</a>
               </li>
-              <li class="nav-item me-4">
-                <a class="nav-link" href="./otro.html">Tienda</a>
+              <li class="nav-item my-3" id="btnIniciarSesion">
+                  <a href="./pages/login.html" class="btn btn-outline-light ">Iniciar sesión</a>
               </li>
-              <li class="nav-item me-4">
-                <a class="nav-link" href="#">Comunidad</a>
+              <li class="nav-item mx-3 my-3" id="btnRegistrarse">
+                  <a href="./pages/registro.html" class="btn btn-outline-primary">Registrarse</a>
               </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-1" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-primary" type="submit">Buscar</button>
-            </form>
-            <div class="ms-auto mt-2 mt-lg-0">
-              <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
-                Iniciar sesión
-              </button>
-            </div>
+              <li class="nav-item mx-3 my-3 d-none" id="btnCerrarSesion">
+                  <button class="btn btn-outline-danger ">Salir</button>
+              </li>
+          </ul>
           </div>
-      </nav>
-    </header>
+        </div>
+    </nav>
+  </header>
     <main class="bg-Steam container-fluid">
         <section class="py-3 container bg-Steam text-light">
             <div class="py-3 d-flex justify-content-between ">
